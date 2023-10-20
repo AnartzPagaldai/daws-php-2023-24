@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php 
+        $nombre = 'mike';
+        $edad = 22;
+
+        echo "mi amigo $nombre tiene $edad años";
+    ?> 
 </body>
 </html>

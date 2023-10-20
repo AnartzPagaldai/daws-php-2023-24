@@ -7,7 +7,10 @@
 </head>
 <body>
     <?php 
-        
+        $nombre = 'mike';
+        $edad = 22;
+
+        echo "$nombre $edad";
     ?> 
 </body>
 </html>
