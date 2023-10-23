@@ -8,7 +8,6 @@
 <body>
     <?php
         if (isset($_GET["usuario"])) {
-
             echo "Bienvenido, {$_GET["usuario"]}"; 
         } else {
             echo "no hay usuario";
