@@ -6,8 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+    <ul>
+        <?php foreach ($lista as $usuario) { ?>
+            <li><?= $usuario?></li>
+        <?php } ?>
+    </ul>
+
     <form action="" method="post">
-        
+        <label for="nombre">nombre:</label>
+        <input type="text" id="nombre" name="nombre">        
+        <input type="submit" value="guardar">
     </form>
 </body>
 </html>
