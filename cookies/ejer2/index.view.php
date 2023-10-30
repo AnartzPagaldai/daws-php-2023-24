@@ -6,8 +6,19 @@
     <title>Document</title>
 </head>
 <body>
+    <ul>
+        <?php foreach ($_COOKIE as $key => $usuario) { ?>
+            <li><?= $usuario ?></li>
+        <?php } ?>
+    </ul>
     <form action="" method="post">
-        
+        <label for="nombre">nombre:</label>
+        <input type="text" id="nombre" name="nombre">        
+        <input type="submit" value="guardar">
+    </form>
+    <form action="" method="POST">
+        <input type="text" name="nombre" style="display: none" value="-17">
+        <input type="submit" value="borrar cookies">
     </form>
 </body>
 </html>
